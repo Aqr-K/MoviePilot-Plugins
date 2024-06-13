@@ -2,16 +2,15 @@
 
 MoviePilot第三方插件市场：https://github.com/Aqr-k/MoviePilot-Plugins/
 
-# 保持插件最新
+### 插件列表
 
-- 安装并开启由[thsrite](https://github.com/thsrite)开发的[`插件自动更新`](https://github.com/thsrite/MoviePilot-Plugins)插件，每次重启会更新已安装插件最新版本。也可设置cron定时任务更新插件。
-- 如未刷新到插件更新，或者插件更新版本未变，可用由[thsrite](https://github.com/thsrite)开发的[`插件强制重装`](https://github.com/thsrite/MoviePilot-Plugins)插件进行重装。
-
-### 插件新增
-
-- [SMTP邮件消息通知](docs/SmtpMsg.md)
-- [自定义消息汇报](docs/SendCustomMsg.md)
-- [OpenStrm](docs/OpenStrm.md)
+|序号|名称|当前版本|功能简述|
+|:---:|:---:|:---:|:---|
+|1|[SMTP邮件消息通知](docs/SmtpMsg.md)|v3.0|支持使用邮件服务器发送消息通知。|
+|2|[自定义消息汇报](docs/SendCustomMsg.md)|v1.1|支持手动发送自定义消息，也可用于调试各类消息通知插件。|
+|3|[OpenStrm](docs/OpenStrm.md)|未发布|支持将自建网盘类型的可在线播放视频文件，制作成strm文件。|
 
 ### 特别鸣谢
+- [MoviePilot](https://github.com/jxxghp/MoviePilot)
+- [jxxghp](https://github.com/jxxghp)
 - [thsrite](https://github.com/thsrite)
